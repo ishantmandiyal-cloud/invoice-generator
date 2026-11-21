@@ -8,6 +8,10 @@ const Register = () => {
   const [password, setPassword] = useState(null);
   const navigate = useNavigate();
   const handleRegister = () => {
+    e.preventDefault();   // <-- add this line
+
+  // your existing login/register code here
+  // ... // or wherever you go after login
     const users = JSON.parse(localStorage.getItem("users") || "[]");
     const newUsers = {
       name,
