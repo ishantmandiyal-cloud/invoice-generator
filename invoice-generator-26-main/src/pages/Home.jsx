@@ -10,7 +10,7 @@ export default function Home() {
       {/* Hero */}
       <div className="text-center max-w-2xl mx-auto">
         <span className="inline-block bg-emerald-800/50 text-emerald-300 text-xs font-medium px-3 py-1 rounded-full mb-4">
-          Simple. Fast. Free.
+          Simple. Slow. Free.
         </span>
         <h1 className="text-4xl sm:text-5xl font-bold text-white mb-4">
           Create professional invoices in seconds
