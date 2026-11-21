@@ -8,7 +8,6 @@ const Register = () => {
   const [password, setPassword] = useState(null);
   const navigate = useNavigate();
   const handleRegister = () => {
-    // const users = JSON.parse(localStorage.getItem(users));
     const users = JSON.parse(localStorage.getItem("users") || "[]");
     const newUsers = {
       name,
