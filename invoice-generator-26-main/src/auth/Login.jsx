@@ -7,7 +7,8 @@ const Login = () => {
   const [email, setEmail] = useState(null);
   const [password, setPassword] = useState(null);
   const navigate = useNavigate();
-  const handleLogin = () => {
+  const handleLogin = (e) => {
+    e.preventDefault();
     const storedUsers = JSON.parse(localStorage.getItem("users") || "[]" );   
     if (!storedUsers) {
       alert("no user found");
