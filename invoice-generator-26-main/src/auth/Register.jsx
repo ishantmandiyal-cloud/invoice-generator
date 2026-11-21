@@ -7,7 +7,7 @@ const Register = () => {
   const [email, setEmail] = useState(null);
   const [password, setPassword] = useState(null);
   const navigate = useNavigate();
-  const handleRegister = () => {
+  const handleRegister = (e) => {
     e.preventDefault();   // <-- add this line
 
   // your existing login/register code here
